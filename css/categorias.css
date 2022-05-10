@@ -1,0 +1,32 @@
+:root {
+    --primary: #012748;
+}
+
+header {
+    background-color: var(--primary);
+}
+
+.car {
+    width: 1.5rem;
+}
+
+.car-number {
+    color: white;
+    background-color: rgb(199, 89, 89);
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: .9rem;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.ver {
+    cursor: pointer;
+}

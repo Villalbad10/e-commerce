@@ -1,0 +1,48 @@
+:root {
+    --primary: #012748;
+}
+
+header {
+    background-color: var(--primary);
+}
+
+.car {
+    width: 1.5rem;
+}
+
+.car-number {
+    color: white;
+    background-color: rgb(199, 89, 89);
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: .9rem;
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    height: 75vh;
+    background-size: cover;
+}
+
+.categories {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.men,
+.woman {
+    cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+}
+
+footer img {
+    width: 100%;
+    background-size: cover;
+}
